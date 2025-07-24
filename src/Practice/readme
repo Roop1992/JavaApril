@@ -1,0 +1,49 @@
+Find questions for encapsultaion abstraction for switch  while while-do array strings
+
+
+
+Polymorphism
+2. Banking System:
+A base class BankAccount could have a method getInterestRate(). Subclasses like SavingsAccount, CheckingAccount, and FixedDepositAccount could override this method to return different interest rates.
+3. Shape Calculations:
+A base class Shape could have a method calculateArea(). Subclasses like Circle, Rectangle, and Triangle could override this method to calculate area based on their specific formulas.
+4. User Interface Elements:
+A base class UIElement could have a draw() method. Subclasses like Button, TextBox, and Image could override this method to draw themselves differently on the screen.
+5. Payment Processing:
+A base class PaymentProcessor could have a processPayment() method. Subclasses like CreditCardProcessor, PayPalProcessor, and BankTransferProcessor could override this method to implement the specific payment logic for each method.
+6. Employee Roles:
+A base class Employee could have a calculatePay() method. Subclasses like Manager, Developer, and Analyst could override this method to calculate pay based on their specific roles and compensation structures.
+7. Vehicle Movement:
+A base class Vehicle could have a move() method. Subclasses like Car, Boat, and Airplane could override this method to implement movement specific to their type (e.g., driving, sailing, flying).
+
+Inheritance
+
+Classes of Objects:
+Consider a base class "Animal" with properties like "name" and "age". Subclasses like "Dog", "Cat", and "Bird" can inherit these properties and add their own specific ones (e.g., "breed" for Dog, "meow" for Cat, "fly" for Bird).
+Employee Hierarchy:
+In a company, you might have a base class "Employee" with attributes like "employee ID" and "salary". Subclasses like "Manager" and "Developer" can inherit these and add their own specific attributes and methods (e.g., "team" for Manager, "programming languages" for Developer).
+UI Elements:
+A base class "Button" can define properties like "color" and "size". Subclasses like "ImageButton" and "TextButton" can inherit these and add their own specific properties (e.g., "image source" for ImageButton, "font" for TextButton).
+
+
+Constructor
+
+
+
+3. The BankAccount Class:
+Scenario: Modeling bank accounts with features like deposits, withdrawals, and balance.
+Instance Variables: accountNumber, accountHolderName, balance
+Constructors:
+Default Constructor: BankAccount(): Initializes with default values or prompts for input.
+Parameterized Constructor: BankAccount(String accountNumber, String accountHolderName, double initialBalance): Sets up the account with provided details.
+4. The Car Class:
+Scenario: Representing cars with properties like make, model, year, and color.
+Instance Variables: make, model, year, color
+Constructors:
+Default Constructor: Car(): Initializes with default values (e.g., "Unknown" for make and model, 0 for year, and "Black" for color).
+Parameterized Constructor: Car(String make, String model, int year, String color): Initializes with all car details.
+Constructor with fewer parameters: Car(String make, String model): Initializes make and model, setting year and color to defaults.
+5. The Rectangle Class:
+Scenario: Representing rectangles with width and height.
+Instance Variables: width, height
+

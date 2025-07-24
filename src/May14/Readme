@@ -1,0 +1,44 @@
+mkdir      to make directory
+cd         to enter in file or directory
+vim        to open file
+touch      to create file
+ls         list all files
+ls -ltr    list all permissions and all
+insert button to write data into file
+cat       to see the content of file
+:x        to save and exit file
+!q        to exit file without saving
+pwd       current working directory
+mv        rename file  mv filename1 filename 2
+cp        copy file  cp filename file name
+clear     clear the terminal
+echo      print any text that follows the command
+rm        remove the files
+rmdir     remove the directory
+rm -rf*   delete all the files if you are in same directory
+
+
+Permissions
+chmod --- filename
+owner group others
+
+0--no permission
+1--execute
+2--write
+3--write and execute
+4--read permission
+5--read and execute
+6-- read and write
+7 -- all permission
+
+grep command  to find data in file
+1. grep "data" filename--------search for data word in filename
+2.grep "search_string" file1 file2 file3-----------search for word in multiple files
+3. grep -i  "data" filename-----------ignore case sensitivity
+4. grep -c  "data" filename-----------count number of occurrence in data
+
+sort command ----to sort in order
+sort -r filename---- to sort in reverse
+
+shell scripting
+

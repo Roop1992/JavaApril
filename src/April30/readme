@@ -1,0 +1,17 @@
+
+AWS connect pc to linux with the help of ec2
+
+ls            to list the files
+touch         to create a file
+mkdir         to make folder
+vi            open the file
+cat           see the content of file without opening it
+
+:w       save the file
+:wq      save and exit
+:x       save and exit
+:q       it wont let you exit without save will give your warning
+:q!      exit without save
+
+
+Hardware kernel shell

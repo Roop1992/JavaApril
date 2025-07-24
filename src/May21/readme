@@ -1,0 +1,21 @@
+git status  to check the status of file
+git init to intialize the git
+git add . add files from working to staging area
+git commit -m "adding files"      to commit from staging to final
+
+commit is local snapshot of the code current status of file
+
+git log on specific time changes made
+
+1. git init
+2. git add .
+3. git commit -m "message"
+4. git push
+
+
+git status
+git log
+
+
+
+working stage-------staging area---------commit--------remote
