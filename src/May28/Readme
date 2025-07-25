@@ -1,0 +1,31 @@
+Branch
+
+pointer to a commit
+copy of actual code
+
+
+main----------www.facebook.com
+  |
+staging      ----copy of facebook code the actual code
+  |
+features-----------make changes in the code
+  |
+Develops----------to check if features on feature branch works correctly
+
+out actual code is in main/master branch
+soo to copy the code in staging
+we create staging branch by writing git branch staging
+then we create feature branch and make changes in that whatever we wnt to do
+some companies make one more copy develop and test all the changes of all works fine
+if yes then feature merge to staging and staging merge to feature
+
+
+to make new branch ----------git branch staging
+to go to that branch --------git checkout staging
+to create and change branch ------git checkout -b staging
+
+
+git fetch
+git pull request
+
+  |
